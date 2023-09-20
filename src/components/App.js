@@ -39,6 +39,7 @@ const App = () => {
           <div>
             <h2>Weather in {weatherData.name}, {weatherData.sys.country}</h2>
             <p>Temperature: {weatherData.main.temp} °K</p>
+            <p>{weatherData.weather['0'].description}</p>
             {/* Add more weather information as needed */}
           </div>
         )}
